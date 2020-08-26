@@ -7,6 +7,7 @@ Install yarn packages
 yarn install
 ```
 Insert Open Weather App APIkey in src/js/services/index.js
+
 Start React app
 ```bash
 yarn start
