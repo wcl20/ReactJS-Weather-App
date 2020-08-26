@@ -1,0 +1,71 @@
+.homepage {
+  height: 100vh;
+  background: url("/background.jpg") no-repeat center fixed;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+
+  .date {
+      margin-top: 70px;
+      padding: 0 50px;
+  }
+}
+
+.current {
+    display: flex;
+    justify-content: space-around;
+
+
+    .overview {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        i {
+            font-size: 150px;
+            margin-right: 30px;
+        }
+    }
+
+    .details {
+        width: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 20px;
+
+
+
+        .col h5:nth-child(even) {
+            margin-top: -20px;
+        }
+    }
+}
+
+.forecast {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    color: white;
+    padding: 0 30px;
+
+    li {
+        background-color: rgba(255, 255, 255, 0.25);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2px;
+        flex: 1;
+
+        i {
+            font-size: 30px;
+        }
+    }
+}
