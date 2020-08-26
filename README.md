@@ -1,5 +1,5 @@
 # ReactJS Weather App
-A simple weather app created using ReactJS and Open Weather App
+A simple weather app created using ReactJS and Open Weather Map.
 
 ## Setup
 Install yarn packages
